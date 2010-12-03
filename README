@@ -1,0 +1,11 @@
+Conway's Game of Life
+=====================
+
+An implemention of the Game of Life using Raphael.js.
+  - http://en.wikipedia.org/wiki/Conway's_Game_of_Life
+  - http://raphaeljs.com/
+
+Supported Browsers
+------------------
+
+Should work in all browsers but runs best in Chrome.

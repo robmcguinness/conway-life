@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+}
+
+body {
+	padding: 10px;	
+}
+
+#controls {
+	text-align: center;
+	margin: 10px;
+}
+
+#controls a {
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	background: -moz-linear-gradient(19% 75% 90deg,#F0DEB8, #FDF0D1, #fff 100%);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#F0DEB8), color-stop(.3,#FDF0D1));
+	color:#836d4d;
+	padding:6px 20px;
+	border: 1px solid #d4c198;
+	text-decoration: none;
+}
+
+#controls a:hover {
+	background: -moz-linear-gradient(19% 75% 90deg,#EBD9B4, #F2E6C8, #F5F5F5 100%);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F5F5F5), to(#EBD9B4), color-stop(.3,#F2E6C8));
+}
+
+#myCanvas {
+	height:90%;
+	margin: auto 0;
+}
